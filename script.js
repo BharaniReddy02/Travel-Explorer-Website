@@ -1,6 +1,6 @@
 // Replace with your API keys
-const WEATHER_API_KEY = "0511de3b86721a3cddcdceaa1953b568";
-const UNSPLASH_ACCESS_KEY = "XvvrV4oI05X9IyRLIj4rj-eP0w33YMB4kkeV6XAOFeU";
+const WEATHER_API_KEY = "YOUR_OPENWEATHERAPI_KEY";
+const UNSPLASH_ACCESS_KEY = "YOUR_UNSPLASHAPI_KEY";
 
 async function searchDestination() {
   const city = document.getElementById("cityInput").value.trim();
@@ -43,3 +43,4 @@ async function searchDestination() {
     document.getElementById("photo-gallery").innerHTML = `<p>⚠️ Could not load photos.</p>`;
   }
 }
+
